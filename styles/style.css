@@ -239,3 +239,15 @@ main{
 .sponsors-list ul li img:hover {
     filter: grayscale(0%);
 }
+
+/* footer styles  */
+.footer-area{
+    padding-bottom: 150px;
+}
+.footer-text {
+    background: #FFF4E7;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-size: 20px;
+}
