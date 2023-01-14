@@ -1,6 +1,9 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans';
+}
+body {
+    font-weight: 400;
 }
 main{
     width: 1440px;
@@ -25,6 +28,7 @@ main{
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .menu h3 {
     font-weight: 700;
@@ -68,7 +72,7 @@ main{
 .team-wrapper {
     display: flex;
     align-items: center;
-    padding: 100px 0px;
+    padding: 100px 100px;
 }
 .team-img {
     display: grid;
@@ -76,7 +80,7 @@ main{
     gap: 24px;
 }
 .team-text {
-    margin-left: 2em;
+    margin-left: 3em;
 }
 .team-text h3 {
     font-weight: 500;
@@ -92,4 +96,63 @@ main{
 }
 .team-text p {
     padding: 24px 0px;
+}
+
+/* feature styles  */
+.feature-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.feature-text {
+    padding-right: 12em;
+    padding-left: 0;
+}
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 3px solid #FF900E;
+    padding-left: 15px;
+}
+.feature-overview {
+    color: #727272;
+    padding: 15px 0px;
+}
+.feature-solo-item {
+    margin-top: 20px;
+    background: linear-gradient(to right, #c21500, #ffc500);
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.feature-solo-item h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.feature-solo-item p {
+    font-size: 16px;
+    color: #000;
+    margin-top: 5px;
+}
+.feature-btn {
+    padding: 35px;
+    border-radius: 10px;
+    background-color: #FF900E;
+    border: 1px solid #131313;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 30px;
+    position: absolute;
+    left: 11em;
+    top: 49em;
+}
+.feature-btn > span {
+    font-weight: 500;
+    font-size: 25px;
+}
+.feature-img img {
+    border: 1px solid #000;
+    border-radius: 10px;
 }
