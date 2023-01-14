@@ -2,6 +2,10 @@
     margin: 0;
     font-family: 'Work Sans';
 }
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -13,7 +17,7 @@
     cursor: pointer;
 }
 
-/* header style */
+/* header styles */
 .header-area {
     background: rgba(255, 144, 14, 0.1);
     padding: 30px 90px;
@@ -44,13 +48,13 @@
     padding-bottom: 50px;
     padding: 100px 200px 50px 200px;
 }
-.header-text p{
+.header-text p {
     padding: 30px 0px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
-.header-title{
+.header-title {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
@@ -60,3 +64,32 @@
     text-align: center;
 }
 
+/* team styles */
+.team-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-text {
+    margin-left: 2em;
+}
+.team-text h3 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.team-text h3 > span {
+    font-weight: 700;
+    color: #131313;
+}
+.team-text .fea-color {
+    color: #FF900E;
+}
+.team-text p {
+    padding: 24px 0px;
+}
