@@ -6,7 +6,7 @@ body {
     font-weight: 400;
 }
 main{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .btn-primary {
@@ -54,7 +54,7 @@ main{
     display: block;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     padding: 100px 200px 50px 200px;
 }
 .header-text p {
@@ -306,6 +306,7 @@ main{
     text-decoration: none;
     color: #414141;
     font-size: 18px;
+    transition: .3s;
 }
 .service-card a:hover {
     color: #FF900E;
@@ -313,3 +314,80 @@ main{
 .service-icon {
     padding-bottom: 15px;
 }
+
+
+
+/* Responsive Section*/
+
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+    body{
+        background-color: skyblue;
+    }
+    .menu h3 {
+        font-size: 30px;
+    }
+    .menu-list {
+        display: grid;
+    }
+    .header-area {
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .header-text {
+        padding: 0px;
+    }
+    .banner-img img {
+        max-width: 100%;
+    }
+    .header-title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .team-wrapper {
+        display: grid;
+        padding: 100px 50px;
+    }
+    .team-img {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .team-img img {
+        max-width: 100%;
+    }
+    .team-text h3 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .feature-wrapper {
+        display: grid;
+    }
+    .feature-title {
+        font-size: 35px;
+    }
+    .feature-text {
+        padding: 0px 18px;
+    }
+    .feature-img img {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .feature-btn {
+        padding: 25px;
+        margin-top: .5em;
+        font-size: 40px;
+        position: static;
+    }
+    .facts-card-wrapper {
+        display: grid;
+        gap: 10px;
+    }
+    .facts-title {
+        text-align: center;
+    }
+
+ } /*closing */
+
+ .hide{
+    display: none;
+ }
