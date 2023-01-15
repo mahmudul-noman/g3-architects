@@ -143,6 +143,7 @@ main{
     padding: 35px;
     border-radius: 10px;
     background-color: #FF900E;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 65px;
     line-height: 30px;
@@ -321,9 +322,6 @@ main{
 
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
-    body{
-        background-color: skyblue;
-    }
     .menu h3 {
         font-size: 30px;
     }
@@ -384,6 +382,21 @@ main{
     }
     .facts-title {
         text-align: center;
+    }
+    .service-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 1em;
+    }
+    .sponsors-list ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2em;
+    }
+    .footer-area {
+        padding: 0px 55px 130px 55px;
+    }
+    .footer-text {
+        font-size: 15px;
     }
 
  } /*closing */
