@@ -149,7 +149,7 @@ main{
     line-height: 30px;
     position: absolute;
     left: 11.5em;
-    top: 47.5em;
+    top: 48.5em;
     transition: .5s;
     border: none;
 }
@@ -398,6 +398,7 @@ main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 2em;
+        padding-left: 0px;
     }
     .footer-area {
         padding: 0px 55px 130px 55px;
