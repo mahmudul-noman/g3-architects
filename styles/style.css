@@ -49,6 +49,12 @@ main{
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+    cursor: pointer;
+    transition: .5s;
+}
+.menu-list li:hover {
+    color: #FF900E;
+    font-style: italic;
 }
 .header-text {
     display: block;
